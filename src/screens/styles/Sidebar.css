@@ -1,0 +1,39 @@
+.container {
+    background-color: #911F27;
+  }
+  .sidebar {
+    background-color: #911F27;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left : 0;
+    transition: 0.4s ease;
+    color: #202020;
+    height: 100%;
+    z-index: 99;
+  }
+  .button_bar {
+    position: relative;
+    left : 330px;
+    top: 14px;
+    width: 40px;
+    height: 40px;
+    z-index: 99;
+    transition: 0.8s ease;
+    overflow: hidden;
+    color: #fff;
+    size: 30px;
+  }
+  .openBtn {
+    width: 100%;
+    height: 100%;
+  }
+  .content {
+    padding: 40px 40px 0 20px;
+    position: relative;
+    width: 100%;
+  }
+  .icon {
+    margin: 0;
+    color: #202020;
+  }
