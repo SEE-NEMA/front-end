@@ -13,7 +13,7 @@ function Signup () {
         
         <label className="inputTitle"> 
         이름</label>
-        <input className="idinput" />
+        <input className="signupinput" />
 
         <p></p>
 
