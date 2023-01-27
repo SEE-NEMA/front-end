@@ -13,13 +13,13 @@ function Login () {
 
         <label className="inputTitle"> 
         이메일</label>
-        <input className="idinput" />
+        <input className="loginidinput" />
 
         <p></p>
-
+        
         <label style={{marginTop : "26px" }} className="inputTitle">
         비밀번호</label>
-        <input className="passwordinput"/>
+        <input className="loginidinput2"/>
    
         </div>
     </div> 

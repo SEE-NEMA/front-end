@@ -3,58 +3,52 @@ import './Signup.css'
 
 function Signup () {
     return (
-       
-<div className="page">
-   
+                
+        <div>
+        <h4 className="titleName2">시작하기</h4>
+        
+        <div className="page2">
+        
+        <div className="contentWrap">
+        
+        <label className="inputTitle"> 
+        이름</label>
+        <input className="idinput" />
 
-    <div className="titleWrap">
-    시작하기
-    </div>
+        <p></p>
 
-    <div className="contentWrap">
+        <label className="inputTitle"> 
+        이메일</label>
+        <input className="idinput2" />
+        
+        <p></p>
+        
+        <label className="inputTitle">
+        비밀번호</label>
+        <input className="idinput3"/>
 
-    <div className="inputTitle"> 
-        이름</div>
-        <div className="inputWrap">
-            <input className="input" 
-            placeholder = "이름을 입력해주세요" />
-    </div>
+        <p></p>
 
-    <div className="inputTitle"> 
-        이메일</div>
-        <div className="inputWrap">
-            <input className="input" 
-            placeholder = "test@gmail.com" />
-    </div>
+        <label className="inputTitle"> 
+        비밀번호 확인</label>
+        <input className="idinput4" />
 
-    <div className="inputTitle"> 
-        비밀번호</div>
-        <div className="inputWrap">
-            <input className="input" 
-            placeholder = "영문, 숫자, 특수문자 포함 8자 이상" />
-    </div>
 
-    <div className="errorMessageWrap">
-    </div>
-
-    <div style={{marginTop : "26px" }} className="inputTitle">
-        비밀번호 확인</div>
-        <div className="inputWrap">
-            <input className="input"/>
-    </div>
-
-    <div className="errorMessageWrap"> 
-    </div>
-    
-  </div>
-
-    <div>
-        <button className="bottomButton">
-
+        </div>
+    </div> 
+        
+        <div>
+        <button className="bottomButton2">
+        회원가입
         </button>
+        </div>
+        
+        <h3 className="QuestionText2">
+        이미 회원이신가요? <a href="로그인">로그인</a>
+        </h3>
+        
     </div>
-</div> 
 ) }
-
+        
 
 export default Signup;
