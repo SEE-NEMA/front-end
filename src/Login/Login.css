@@ -11,15 +11,16 @@
     position : absolute;
     top: 200px;
     bottom: 300px;
-    width: 25%;
+    width: 24%;
     max-width: 500px;
     padding: 0 20px;
+    border-radius: 10px;
   
     left: 50%;
     transform: translate(-50%, 0);
 
-    border: 2px solid #911F27;
-    background-color: #F7F7F7;
+    border: 3px solid #911F27;
+    background-color: #ffffff;
   
     overflow: hidden;
   
@@ -63,7 +64,7 @@
     margin-top:15px;
     outline : none;
     border : none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(198, 196, 196);
     height : 40px;
     font-size : 14px;
     font-weight : 400;
@@ -75,7 +76,7 @@
     margin-top:15px;
     outline : none;
     border : none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(198, 196, 196);
     height : 40px;
     font-size : 14px;
     font-weight : 400;
