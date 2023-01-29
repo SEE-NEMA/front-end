@@ -1,0 +1,131 @@
+.WrapReview {
+    position : absolute;
+    top: 150px;
+    bottom: 100px;
+    width: 100%;
+    max-width: 700px;
+    padding: 0 20px;
+    border-radius: 10px;
+  
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    border: 4px solid #830d15;
+    border-radius: 10px;
+    background-color: #ffffff;
+  
+    overflow: hidden;
+  
+    display:flex;
+    flex-direction: column;
+  }
+
+    .ReviewLabel {
+        margin-left : 20px;
+        font-weight: bold;
+    }
+
+    .ImageLabel {
+        margin-left : 20px;
+        font-weight : bold;
+
+    }
+
+    .ReviewInput {
+        margin-left:30px;
+        width : 80%;
+        margin-top:40px;
+        border-style: solid;
+        border-color : #791920;
+        border-radius : 5px;
+
+        height : 40px;
+        font-size : 14px;
+        font-weight : 400;
+    }
+
+    .ReviewInput2 {
+        margin-left:50px;
+        width : 80%;
+        margin-top:40px;
+        border-style: solid;
+        border-color : #791920;
+        border-radius : 5px;
+
+        height : 40px;
+        font-size : 14px;
+        font-weight : 400;
+    }
+
+    .ReviewInput3 {
+        margin-left:50px;
+        width : 80%;
+        margin-top:40px;
+        border-style: solid;
+        border-color : #791920;
+        border-radius : 5px;
+
+        height : 40px;
+        font-size : 14px;
+        font-weight : 400;
+    }
+
+    .ReviewInput4 {
+        margin-left:50px;
+        width : 80%;
+        margin-top:40px;
+        border-style: solid;
+        border-color : #791920;
+        border-radius : 5px;
+
+        height : 40px;
+        font-size : 14px;
+        font-weight : 400;
+    }
+
+    .ReviewInputBox {
+        margin-left:50px;
+        height : 120px;
+        width : 80%;
+        border-style: solid;
+        border-color : #791920;
+        border-radius : 5px;
+    }
+
+    .AddImage {
+        background-color : black;
+        text-align : center;
+        color : white;
+        border-radius : 5px;
+        margin-left:50px;
+        width:20%;
+        height : 40px;
+    }
+
+    .WrapReviewBox {
+        margin-top : -10px;
+    }
+    .WrapImage {
+        margin-top : 40px;
+    }
+
+    .WrapContent {
+            margin-top: 2px;
+            height: 40px;
+    }
+
+    .ReviewUpload {
+        position : absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        background-color : black;
+        text-align : center;
+        color : white;
+
+        border-radius : 5px;
+        margin-top:680px;
+        width:10%;
+        height : 40px;
+        
+    }
