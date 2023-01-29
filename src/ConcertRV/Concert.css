@@ -1,0 +1,66 @@
+.WrapConcert {
+    position : absolute;
+    top: 150px;
+    bottom: 100px;
+    width: 100%;
+    max-width: 700px;
+    padding: 0 20px;
+    border-radius: 10px;
+  
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    border: 4px solid #830d15;
+    border-radius: 10px;
+    background-color: #ffffff;
+  
+    overflow: hidden;
+  
+    display:flex;
+    flex-direction: column;
+}
+
+.WrapConcertCT {
+    margin-top : 2px;
+}
+
+.TitleLabel {
+    margin-left : 20px;
+    font-weight: bold;
+}
+
+.ContentLabel {
+    margin-left : 20px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.CTtitle {
+    margin-left:30px;
+        width : 80%;
+        margin-top:40px;
+        border-style: solid;
+        border-color : #791920;
+        border-radius : 5px;
+
+        height : 40px;
+        font-size : 14px;
+        font-weight : 400;
+}
+
+.CTcontent {
+    margin-left:30px;
+        width : 80%;
+        margin-top:5px;
+        border-style: solid;
+        border-radius : 5px;
+        border : 2px solid #791920;
+
+        height : 200px;
+        font-size : 16px;
+        font-weight : 400;
+
+        text-transform: 5px;
+       
+}
+
