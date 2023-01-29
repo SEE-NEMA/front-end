@@ -1,8 +1,10 @@
 import React, {useEffect, useRef, useState} from "react";
 import { AiOutlineBars } from 'react-icons/ai';
 import '../screens/styles/Sidebar.css'
+import {Link} from 'react-router-dom';
+import Review from '../screens/Review/Review.js';
 
-const Sidebar = ({width=320, children}) => {
+const Sidebar = ({width=400, children}) => {
     const [isOpen, setOpen] = useState(false);
     const [xPosition, setX] = useState(width);
     const side = useRef();
@@ -44,8 +46,22 @@ const Sidebar = ({width=320, children}) => {
                 <span>X</span> : <AiOutlineBars/>    
                 }
                 </AiOutlineBars>
-
-                <div className="content">{children}</div>
+                <div className="content">
+                    <br/><br/><br/>
+                    <ul>공연
+                        <li><a href="/musical">뮤지컬</a></li>
+                        <li><a href="/concert">콘서트</a></li>
+                    </ul>
+                    <br/><br/>
+                    <ul>공연장
+                        <li><a href="/seeya">시야 정보</a></li>
+                        <li><a href="/facility">주변 시설</a></li>
+                        <li><a href="/matzip">근처 맛집</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/Review">후기 모아보기</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     );

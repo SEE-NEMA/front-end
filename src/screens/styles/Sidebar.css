@@ -8,13 +8,18 @@
     bottom: 0;
     left : 0;
     transition: 0.4s ease;
-    color: #202020;
     height: 100%;
     z-index: 99;
+    width: 400;
   }
+  
+  .content {
+    width: 800px;
+  }
+
   .button_bar {
     position: relative;
-    left : 330px;
+    left : 300px;
     top: 14px;
     width: 40px;
     height: 40px;
@@ -24,16 +29,25 @@
     color: #fff;
     size: 30px;
   }
-  .openBtn {
-    width: 100%;
-    height: 100%;
+
+  a {
+    text-decoration: none;
+    color: #fff;
   }
-  .content {
-    padding: 40px 40px 0 20px;
-    position: relative;
-    width: 100%;
-  }
-  .icon {
-    margin: 0;
-    color: #202020;
-  }
+
+
+ul {
+  color : #fff;
+  list-style : none;
+  width: 600px;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+li {
+  width: 400px;
+  font-size: medium;
+  font-weight: lighter;
+  margin-top: 20px;
+}

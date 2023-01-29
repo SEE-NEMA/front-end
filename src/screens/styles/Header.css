@@ -1,6 +1,6 @@
 .content {
-  height: 100vh;
-  width: 100vh;
+  height: 10vh;
+  width: 10vh;
 }
 
 .nav{
@@ -32,4 +32,11 @@
   background-color: transparent; 
   color: #FFFFFF;
   border: none;
+  margin-right : -15px;
+  margin-top: 5px;
 } 
+
+h3 {
+  color: #FFFFFF;
+  text-decoration: none;
+}

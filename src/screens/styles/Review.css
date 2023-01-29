@@ -1,0 +1,50 @@
+.div {
+    margin-top : 100px;
+    text-align: center;
+}
+
+
+.wrap-content {
+    margin-top: 40px;
+}
+
+.Search {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+input {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 600px;
+    height:30px;
+    border-radius: 20px;
+    border: 1px #911F27 solid;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+label {
+    padding: 0 15px;
+}
+
+hr {
+    margin-top: 100px;
+    height : 5px;
+    width:1000px;
+    background : #000;
+}
+
+.Write {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 140px;
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+}
