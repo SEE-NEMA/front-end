@@ -61,71 +61,37 @@
     
     .signupinput {
       
-        margin-left:70px;
-        width : 55%;
-        margin-top:15px;
+      
+        margin-left:30px;
+        width : 80%;
+        margin-top: 10px;
         outline : none;
         border : none;
-        border-bottom: 2px solid gray;
+        border-radius:0;
+        border-bottom: 3px solid rgb(198, 196, 196);
         height : 40px;
         font-size : 14px;
         font-weight : 400;
-      
+      }
+    
+    .signupinput::placeholder {
+        text-align: left;
+      }
+    
+    .emailCT {
+      margin-left: 50px;
+      background-color: #911F27;
+      color : white;
+      border-radius : 5px;
+      height : 30px;
+      border : none;
+      font-weight : bold;
+      width : 20%;
+      position: absolute;
+      left : 50%;
+      bottom : 60%;
     }
 
-    .idinput2 {
-      margin-left:60px;
-      width : 55%;
-      margin-top:15px;
-      outline : none;
-      border : none;
-      border-bottom: 2px solid gray;
-      height : 40px;
-      font-size : 14px;
-      font-weight : 400;
-    
-      }
-
-      .idinput3 {
-        margin-left:50px;
-        width : 55%;
-        margin-top:15px;
-        outline : none;
-        border : none;
-        border-bottom: 2px solid gray;
-        height : 40px;
-        font-size : 14px;
-        font-weight : 400;
-      
-      }
-  
-      .idinput4 {
-        margin-left:25px;
-        width : 55%;
-        margin-top:15px;
-        outline : none;
-        border : none;
-        border-bottom: 2px solid gray;
-        height : 40px;
-        font-size : 14px;
-        font-weight : 400;
-      
-      }
-    .passwordinput {
-      margin-left:50px;
-      width : 80%;
-      margin-top:10px;
-      outline : none;
-      border : none;
-      border-bottom: 2px solid gray;
-      height : 40px;
-      font-size : 12px;
-      font-weight : 400;
-    }
-    
-    .input::placeholder {
-      color : #dadada;
-    }
     
     .bottomButton2 {
       position : absolute;

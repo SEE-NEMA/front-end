@@ -12,27 +12,27 @@ function Signup () {
         
         <div className="contentWrap">
         
-        <label className="inputTitle"> 
-        이름</label>
-        <input className="signupinput" />
-
-        <p></p>
-
-        <label className="inputTitle"> 
-        이메일</label>
-        <input className="idinput2" />
         
+        <input className="signupinput" placeholder='Name' />
+
+        <p></p>
+
+        <div className = "EmailWrap">
+        
+        <input className="signupinput" placeholder='Email'/>  <button className = "emailCT">중복확인</button>
+        
+        </div>
+
         <p></p>
         
-        <label className="inputTitle">
-        비밀번호</label>
-        <input className="idinput3"/>
+       
+        
+        <input className="signupinput" placeholder='Password'/>
 
         <p></p>
 
-        <label className="inputTitle"> 
-        비밀번호 확인</label>
-        <input className="idinput4" />
+       
+        <input className="signupinput" placeholder='Password certify'/>
 
 
         </div>
