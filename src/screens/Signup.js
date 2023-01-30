@@ -27,12 +27,12 @@ function Signup () {
         
        
         
-        <input className="signupinput" placeholder='Password'/>
+        <input className="signupinput" placeholder='Password' type="password" />
 
         <p></p>
 
        
-        <input className="signupinput" placeholder='Password certify'/>
+        <input className="signupinput" placeholder='Password certify' type="password"/>
 
 
         </div>
