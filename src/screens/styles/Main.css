@@ -1,0 +1,43 @@
+.MainTitle {
+    text-align :center;
+    margin-top : 80px;
+    
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.Mainsearch{
+    border-radius : 5px;
+
+    width: 40%;
+    height: 50px;
+    max-width: 800px;
+    padding: 0 20px;
+    
+    left: 50%;
+    transform: translate(65%, 0);
+
+    border: 5px solid #911F27;
+    background-color: #ffffff;
+  
+}
+
+.Rank {
+    text-align :center;
+    margin-top : 30px;
+    
+    font-size: 15px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.RankBox {
+    box-sizing: border-box;
+	width: 400px;
+	height: 300px;
+	transform: translate(143%, 0);
+	background-color: #FCF0C8;
+    border-radius: 20px;
+}
+

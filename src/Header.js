@@ -16,7 +16,7 @@ const Header = (props) =>
       <div className='nav-item'>
         <Sidebar width={280}></Sidebar>
         <Link to="/">
-        <h3>SEEnema</h3>
+        <h3 className = "HeaderLogo">Logo</h3>
         </Link>
         <button className='btn_mypage' onClick={()=>setmodal(!modal)}><CgProfile size="35"/></button>
         {modal && (

@@ -3,6 +3,10 @@
   width: 10vh;
 }
 
+.HeaderLogo {
+  margin-left : 60px;
+  left : 20%
+}
 .nav{
   background-color: #911F27;
   width: 100%;

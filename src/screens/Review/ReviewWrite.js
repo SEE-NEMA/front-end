@@ -1,14 +1,17 @@
 /*공연장 후기 작성화면*/
-
+import Header from "../../Header";
 import '../styles/ReviewWrite.css'
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 
 function ReviewWrite () {
     return(
+       <div>
+        <Header></Header>
+       
         <div className='WrapConcert'>
             <div className = 'WrapConcertTT'>
-                <labal className = 'TitleLabel'>
-                제목</labal>
+                <label className = "TitleP">제목</label>
                 <input className = 'CTtitle' placeholder=' [ 공연장 이름 + 공연 ] 으로 작성해주세요.'></input>
             </div>
 
@@ -17,12 +20,16 @@ function ReviewWrite () {
             <div className='WrapConcertCT'>
                 <label className = 'ContentLabel'>
                 내용</label>
-                <input className = 'CTcontent' placeholder  = '내용을 입력해주세요.'></input>
-           
+                <input className = 'CTcontent' ></input>
             </div>
             <p></p>
 
+            <label className = 'Tag'>태그</label>
 
+
+        </div>
+
+        <button className = "ReviewUpload">업로드</button>
         </div>
     )
 }
