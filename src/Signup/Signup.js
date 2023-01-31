@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import './Signup.css'
+
+import './Signup.css';
 
 function Signup () {
     return (
@@ -11,27 +12,27 @@ function Signup () {
         
         <div className="contentWrap">
         
-        <label className="inputTitle"> 
-        이름</label>
-        <input className="signupinput" />
-
-        <p></p>
-
-        <label className="inputTitle"> 
-        이메일</label>
-        <input className="idinput2" />
         
+        <input className="signupinput" placeholder='Name' />
+
+        <p></p>
+
+        <div className = "EmailWrap">
+        
+        <input className="signupinput" placeholder='Email'/>  <button className = "emailCT">중복확인</button>
+        
+        </div>
+
         <p></p>
         
-        <label className="inputTitle">
-        비밀번호</label>
-        <input className="idinput3"/>
+       
+        
+        <input className="signupinput" placeholder='Password' type="password" />
 
         <p></p>
 
-        <label className="inputTitle"> 
-        비밀번호 확인</label>
-        <input className="idinput4" />
+       
+        <input className="signupinput" placeholder='Password certify' type="password"/>
 
 
         </div>
@@ -44,7 +45,7 @@ function Signup () {
         </div>
         
         <h3 className="QuestionText2">
-        이미 회원이신가요? <a href="로그인">로그인</a>
+        이미 회원이신가요? <a href="/Login" className='link_login'>로그인</a>
         </h3>
         
     </div>
