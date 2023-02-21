@@ -16,7 +16,9 @@ function Main ()
 
             <h4 className="MainTitle">SEEnema</h4>
           
+            <div className = 'WrapSearch'>
             <input className='Mainsearch'></input>
+            </div>
             <p className = "Rank"> 실시간 공연 랭킹 </p>
 
             <div className = "RankBox"></div>
