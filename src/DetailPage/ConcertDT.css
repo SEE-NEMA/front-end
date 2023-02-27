@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .ConcertImage {
     background-color: rgb(255, 255, 255);
     height : 320px;
@@ -9,22 +11,46 @@
     
 }
 
-.ConcertRow {
-    text-align : center;
+.ConcertInfo {
+    margin-left: 50px;
 }
 
 .WrapConcert {
     position : absolute;
     top : 150px;
-    left : 150px;
+    left : 200px;
     
 }
 
 .Keyword {
     position : absolute;
     top : 540px;
-    left : 150px;
+    left : 200px;
     font-size: 20px;
-    font-style: normal;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+}
+
+.InfoName {
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size : 20px;
+}
+
+.InfoSub {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size : 15px;
+    margin-left : 20px;
+    line-height: 45px;
+}
+
+.Category {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size : 13px;
+    color : gray;
+    line-height: 5px;
+    margin-top : 10px;
+    
 }
 
