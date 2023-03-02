@@ -9,7 +9,7 @@ import Login from './screens/Login';
 import Review from './screens/Review/Review';
 import Perform_Review from './screens/Review/ReviewWrite';
 import Signup from './screens/Signup'
-import ConcertDt from './screens/Detailpage/ConcertDt';
+
 
 function App ()
 {
@@ -21,7 +21,7 @@ function App ()
         <Route path={"/Signup"} element={<Signup/>}></Route>
         <Route path={"/Review"} element={<Review/>}></Route>
         <Route path={"/perform_review"} element={<Perform_Review/>}></Route>
-        <Route path={"/Concert_detail_page"} element = {<ConcertDt/>}></Route>
+        
       </Routes>
     </BrowserRouter>
   )
