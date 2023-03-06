@@ -9,6 +9,8 @@ import Login from './screens/Login';
 import Review from './screens/Review/Review';
 import Perform_Review from './screens/Review/ReviewWrite';
 import Signup from './screens/Signup'
+import Seeya from './screens/SB_Components/Seeya';
+import Matzip from './screens/SB_Components/Matzip';
 
 function App ()
 {
@@ -20,6 +22,8 @@ function App ()
         <Route path={"/Signup"} element={<Signup/>}></Route>
         <Route path={"/Review"} element={<Review/>}></Route>
         <Route path={"/perform_review"} element={<Perform_Review/>}></Route>
+        <Route path={"/seeya"} element={<Seeya/>}/>
+        <Route path={"/matzip"} element={<Matzip/>}/>
       </Routes>
     </BrowserRouter>
   )

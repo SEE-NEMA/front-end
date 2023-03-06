@@ -4,6 +4,15 @@ import '../styles/ReviewWrite.css'
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 
+const createPost = () => {
+    return function (dispatch, getState, {history}) {
+        console.log('createPost', post);
+        axios.post(`/upload`, post).then((res) => {
+            history.push('/');
+        });
+    };
+};
+
 function ReviewWrite () {
     return(
        <div>

@@ -14,8 +14,9 @@
     height: 50px;
     max-width: 800px;
     padding: 0 20px;
-    
+    margin-top: 60px;
     left: 50%;
+    transform: translateX(-50%);
     transform: translate(65%, 0);
 
     border: 5px solid #911F27;
@@ -30,14 +31,16 @@
     font-size: 15px;
     font-weight: 700;
     color: #262626;
+    position: absolute;
+    right : 100px;
+    top : 150px;
 }
 
 .RankBox {
-    box-sizing: border-box;
-	width: 400px;
+	width: 200px;
 	height: 300px;
-	transform: translate(143%, 0);
-	background-color: #FCF0C8;
+	background-color: transparent;
     border-radius: 20px;
+    border: 5px solid #911F27;
 }
 

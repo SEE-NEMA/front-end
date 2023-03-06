@@ -1,0 +1,48 @@
+.container_matzip{
+    position: absolute;
+    top : 150px;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.searchbar_matzip {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tab_bar {
+    color : #000;
+    background-color: transparent;
+    width : 100px;
+    position: inherit;
+}
+
+.tabs {
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    top : 130px;
+}
+
+hr {
+    top : 70px;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width : 100;
+}
+
+.search_icon {
+    position: absolute;
+    top : 30px;
+    left: 320px;
+    height: 50px;
+    width: 50px;
+}
+
+.tabs {
+    align-self: center;   
+    left: 50%; 
+    transform: translateX(-50%);  
+}
