@@ -35,7 +35,7 @@ function ReviewWrite () {
             <div className='WrapConcertCT'>
                 <label className = 'ContentLabel'>
                 내용</label>
-                <input className = 'CTcontent' ></input>
+                <textArea className = 'CTcontent' ></textArea>
             </div>
 
             <p></p>

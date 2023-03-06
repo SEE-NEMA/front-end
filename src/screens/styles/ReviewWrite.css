@@ -75,6 +75,9 @@
     font-weight : 400;
 
     text-transform: 5px;
+
+    resize:none;
+    font-family : 'Raleway', sans-serif;
        
 }
 
