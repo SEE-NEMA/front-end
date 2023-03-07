@@ -23,11 +23,13 @@ function Main ()
         <h4 className="MainTitle">SEEnema</h4>
           
         <SearchBar onSearch={handleSearch} />
-     
+        
+        <div className = "WrapSlider">
         <SliderContainer/>
-           
+        </div>
+        
         <div className = "Ranking">
-            
+
         </div>
         </div>
 
