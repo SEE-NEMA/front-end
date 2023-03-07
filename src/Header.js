@@ -10,6 +10,7 @@ import {CgProfile} from 'react-icons/cg';
 const Header = (props) =>
 {
   const [modal, setmodal]= useState(false);
+  
   return(
     <div className='content'>
       <nav className='nav'>

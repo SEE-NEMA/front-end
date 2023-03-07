@@ -22,9 +22,10 @@ function App ()
         <Route path={"/Login"} element={<Login/>}></Route>
         <Route path={"/Signup"} element={<Signup/>}></Route>
         <Route path={"/Review"} element={<Review/>}></Route>
-        <Route path={"/perform_review"} element={<Perform_Review/>}</Route>
         <Route path={"/seeya"} element={<Seeya/>}/>
         <Route path={"/matzip"} element={<Matzip/>}/>
+        <Route path={"/perform_review"} element={<Perform_Review/>}/>
+        
       </Routes>
     </BrowserRouter>
   )

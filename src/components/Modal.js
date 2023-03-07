@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from '../Header';
 import '../screens/styles/Modal.css';
+
 function Modal(props) {
     function closeModal() {
         props.closeModal();

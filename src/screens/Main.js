@@ -5,32 +5,32 @@ import Sidebar from '../components/Sidebar';
 import './styles/Main.css'
 import {FaSearch} from "react-icons/fa";
 import SliderContainer from "../components/SliderContainer";
+import SearchBar from '../components/SearchBar';
+
 
 function Main ()
 {
+    
+    const handleSearch = (searchTerm) => {
+        console.log(`Search for "${searchTerm}"`);
+    }
+
     return (
         <div>
         <Header/>
         <Sidebar width={280}/>
 
-        <div>
-
-            <h4 className="MainTitle">SEEnema</h4>
+        <h4 className="MainTitle">SEEnema</h4>
           
-         
-          
-            <input className='Mainsearch'></input>
-            <SliderContainer/>
-            <div className = "Rank">
-            <h4>실시간 공연 랭킹</h4>
-            <div className="RankBox"/>
-            </div>
-
+        <SearchBar onSearch={handleSearch} />
+     
+        <SliderContainer/>
+           
+        <div className = "Ranking">
+            
+        </div>
         </div>
 
-       
-        </div>
-        
     )
 }
 
