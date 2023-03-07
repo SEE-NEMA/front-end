@@ -8,6 +8,15 @@ import "react-datepicker/dist/react-datepicker.css";
 
 
 
+const createPost = () => {
+    return function (dispatch, getState, {history}) {
+        console.log('createPost', post);
+        axios.post(`/upload`, post).then((res) => {
+            history.push('/');
+        });
+    };
+};
+
 function ReviewWrite () {
 
    

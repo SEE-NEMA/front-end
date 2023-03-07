@@ -4,6 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import './styles/Main.css'
 import {FaSearch} from "react-icons/fa";
+import SliderContainer from "../components/SliderContainer";
 
 function Main ()
 {
@@ -16,12 +17,14 @@ function Main ()
 
             <h4 className="MainTitle">SEEnema</h4>
           
-            <div className = 'WrapSearch'>
+         
+          
             <input className='Mainsearch'></input>
+            <SliderContainer/>
+            <div className = "Rank">
+            <h4>실시간 공연 랭킹</h4>
+            <div className="RankBox"/>
             </div>
-            <p className = "Rank"> 실시간 공연 랭킹 </p>
-
-            <div className = "RankBox"></div>
 
         </div>
 
