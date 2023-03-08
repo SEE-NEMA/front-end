@@ -66,7 +66,7 @@ function Matzip()
                 </Nav.Item>
             </Nav>
             <TabContent clickedTab={clickedTab}/>
-            <hr/>
+            <hr className="Matziphr"/>
             </div>
         </div>
     )
