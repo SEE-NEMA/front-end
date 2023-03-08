@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import ConcertDT from './DetailPage/ConcertDT';
+import MusicalDT from './DetailPage/MusicalDT';
 
 function App() {
   return (
    
-      <ConcertDT></ConcertDT>
+      <MusicalDT></MusicalDT>
     
   );
 }
