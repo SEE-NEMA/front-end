@@ -11,15 +11,15 @@ function Review()
     return(
         <div>
             <Header/>
-            <div className="WrapReview">
-            <input placeholder="공연 혹은 공연장 이름을 검색해주세요"></input>
-                <button className="Search">
+            <div className="Review-WrapContent">
+            <input className="Review-Input" placeholder="공연 혹은 공연장 이름을 검색해주세요"></input>
+                <button className="Review-Search">
                     <FaSearch size="30"/>
                 </button>
             <Link to="/perform_review">
-                <button className="Write">글쓰기</button>
+                <button className="Review-WriteBtn">글쓰기</button>
             </Link>
-            <hr className="Reviewhr"/>
+            <hr className="Review-hr"/>
             </div>
         </div>
     );

@@ -17,32 +17,34 @@ function ReviewWrite () {
        <div>
         <Header></Header>
        
-            <div className='WrapConcert'>
-            <div className = 'WrapConcertTT'>
-                <label className = "TitleP">제목</label>
-                <input className = 'CTtitle' placeholder=' [ 공연장 이름 + 공연 ] 으로 작성해주세요.'></input>
+            <div className='ReviewWrite-ContentWrap'>
+
+            <div className = 'RW-CW'>
+                <label className = "ReviewWrite-Title">제목</label>
+                <input className = 'ReviewWrite-Input' placeholder=' [ 공연장 이름 + 공연 ] 으로 작성해주세요.'></input>
             </div>
 
             <p></p>
 
-            <label className = 'Date'>관람일자</label>
-           
-            <DatePicker
-            className = "MyDatePicker"
-            dataFormat = "yyyy-MM-dd" />
+            <div className = "RW-DT">
+                <label className = 'ReviewWrite-Date'>관람일</label>
+                <DatePicker
+                    className = "MyDatePicker"
+                    dataFormat = "yyyy-MM-dd" />
+            </div>
 
             <p></p>
 
-            <div className='WrapConcertCT'>
-                <label className = 'ContentLabel'>
+            <div className='ReviewWrite-Content'>
+                <label className = 'ReviewWrite-Label'>
                 내용</label>
-                <textArea className = 'CTcontent' ></textArea>
+                <textArea className = 'ReviewWrite-Text' ></textArea>
             </div>
 
             <p></p>
-        </div>
+            </div>
 
-        <button className = "ReviewUpload">업로드</button>
+        <button className = "ReviewWrite-Upload">업로드</button>
         </div>
     )
 }
