@@ -11,11 +11,11 @@
   }
   
   .Main-Search-Bar-input {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid #000000;
     outline: none;
     width: 400%;
     height: 30px;
-    border-radius : 6px;
+    border-radius : 10px;
     margin-right: 0.5rem;
     text-align:center;
     margin:auto;
@@ -28,7 +28,7 @@
     cursor: pointer;
     outline: none;
     font-size: 1.5rem;
-    color: #3a3a3a;
+    color: #000000;
     margin:auto;
     height:14px;
   }

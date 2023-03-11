@@ -49,7 +49,7 @@ const Sidebar = ({width=400, children}) => {
                 <div className="content">
                     <br/><br/><br/>
                     <ul>공연
-                        <li><a href="/MusicalDT">뮤지컬</a></li>
+                        <li><a href="/musical">뮤지컬</a></li>
                         <li><a href="/ConcertDt">콘서트</a></li>
                     </ul>
                     <br/><br/>

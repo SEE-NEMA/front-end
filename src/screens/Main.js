@@ -31,7 +31,10 @@ function Main ()
         <SliderContainer/>
         </div>
         
+        <div className = "Ranking-Wrap">
+        <p className = "Ranking-Text">Ranking</p>
         <div className = "Ranking">
+        </div>
 
         </div>
         </div>

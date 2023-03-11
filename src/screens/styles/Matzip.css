@@ -1,28 +1,54 @@
-.container_matzip{
+.Matzip-Container{
     position: absolute;
     top : 150px;
     left: 50%; 
     transform: translateX(-50%); 
 }
 
-.searchbar_matzip {
+.Matzip_SearchBar {
+    height : 30px;
+    width : 500px;
+    border-radius : 7px;
+    margin-top : 20px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
+.Matzip_Search {
+    margin-top:12px;
+    margin-left:670px;
+    height: 50px;
+    width: 30px;
+}
+
 .tab_bar {
-    color : #000;
+    color : #000000;
     background-color: transparent;
-    width : 100px;
+    width : 300px;
     position: inherit;
+    
 }
 
 .tabs {
-    background-color: transparent;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     display: flex;
     top : 130px;
+    width : 800px;
+    line-height: 5%;
+    padding:8px 19px 8px 16px;
+}
+
+.Matzip-Wrap {
+    background-color: aquamarine;
+    height : 500px;
+}
+
+.Matzip-Nav-item {
+    line-height: 5%;
+    width : 200px;
+    margin-left : 10px;
 }
 
 .Matziphr {
@@ -32,12 +58,6 @@
     background : #000;
 }
 
-.search_icon {
-    margin-top:10px;
-    margin-left:720px;
-    height: 50px;
-    width: 30px;
-}
 
 .tabs {
     align-self: center;   
