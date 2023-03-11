@@ -7,6 +7,10 @@ function Modal(props) {
         props.closeModal();
     }
 
+    function handleClick(e) {
+        window.location.href = "/mypage"
+    }
+
     return (
         <div className="Modal" onClick={closeModal}>
             <div className="modalBody" onClick={(e)=>e.stopPropagation()}>
@@ -15,7 +19,7 @@ function Modal(props) {
                     <button className="profile_circle"></button>
                     <hr className="hr_modal"/>
                     <hr className="hr_modal2"/>
-                    <button className="modal_mypage">마이페이지</button>
+                    <button className="modal_mypage" onClick={handleClick}>마이페이지</button>
                     <button className="modal_logout">로그아웃</button>
                 </div>
             </div>

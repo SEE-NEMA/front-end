@@ -13,6 +13,7 @@ import Seeya from './screens/SB_Components/Seeya';
 import Matzip from './screens/SB_Components/Matzip';
 import Musical from './screens/SB_Components/Musical';
 import Concert from './screens/SB_Components/Concert';
+import MyPage from './screens/My_Page/MyPage';
 
 function App ()
 {
@@ -28,6 +29,7 @@ function App ()
         <Route path={"/perform_review"} element={<Perform_Review/>}/>
         <Route path={"/musical"} element={<Musical/>}/>
         <Route path={"/concert"} element={<Concert/>}/>
+        <Route path={"/mypage"} element={<MyPage/>}/>
 
       </Routes>
     </BrowserRouter>
