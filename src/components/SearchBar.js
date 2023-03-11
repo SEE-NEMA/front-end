@@ -16,8 +16,9 @@ function SearchBar(props) {
     
     return (
       <form onSubmit={handleSubmit}>
-        <div className="search-bar">
+        <div className="Main-Search-Bar">
           <input
+            className = "Main-Search-Bar-input"
             type="text"
             placeholder="검색어를 입력하세요"
             value={searchTerm}
