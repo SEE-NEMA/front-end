@@ -14,6 +14,7 @@ import Matzip from './screens/SB_Components/Matzip';
 import Musical from './screens/SB_Components/Musical';
 import Concert from './screens/SB_Components/Concert';
 import MyPage from './screens/My_Page/MyPage';
+import Facility from './screens/SB_Components/Facility';
 
 function App ()
 {
@@ -30,7 +31,7 @@ function App ()
         <Route path={"/musical"} element={<Musical/>}/>
         <Route path={"/concert"} element={<Concert/>}/>
         <Route path={"/mypage"} element={<MyPage/>}/>
-
+        <Route path={"/facility"} element={<Facility/>}/>
       </Routes>
     </BrowserRouter>
   )
