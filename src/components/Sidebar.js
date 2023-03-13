@@ -53,13 +53,14 @@ const Sidebar = ({width=400, children}) => {
                         <li><a href="/concert">콘서트</a></li>
                     </ul>
                     <br/><br/>
-                    <ul>공연장
-                        <li><a href="/seeya">시야 정보</a></li>
-                        <li><a href="/facility">주변 시설</a></li>
-                        <li><a href="/matzip">근처 맛집</a></li>
+                    <ul>후기 모아보기
+                        <li><a href="/seeya">시야 후기</a></li>
+                        <li><a href="/Review">공연장 후기</a></li>
+                        
                     </ul>
-                    <ul>
-                        <li><a href="/Review">후기 모아보기</a></li>
+                    <br/><br/>
+                    <ul>주변 시설
+                        <li><a href="/Review"></a></li>
                     </ul>
                 </div>
             </div>
